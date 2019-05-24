@@ -9,6 +9,16 @@ package ca.sheridancollege.week1.softwarefundamentals;
  *
  * @author achao
  */
-public class StudentList {
-    zXzcxzx
+public class PartTimeStudent extends Student {
+    public String phone;{
+    }
+    public PartTimeStudent(){
+        super()
+    }
+    public void setPhone(String phone){
+        this.phone=phone''
+    }
+    public String getPhone(){
+        return this.phone;
+    }
 }
